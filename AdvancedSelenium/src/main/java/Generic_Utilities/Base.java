@@ -45,11 +45,11 @@ public class Base {
 		System.out.println("Launch the Browser");
 		
 		//reading data from properties file
-//		File_Utilities fLib = new File_Utilities();
-//		String BROWSER = fLib.getKeyAndValue("Browser");
+		File_Utilities fLib = new File_Utilities();
+		String BROWSER = fLib.getKeyAndValue("Browser");
 		
 //		//Reading keys from cmd prompt/Jenkins
-		String BROWSER = System.getProperty("Browser");
+//		String BROWSER = System.getProperty("Browser");
 		
 		if(BROWSER.equalsIgnoreCase("chrome"))
 		{
