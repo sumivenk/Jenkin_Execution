@@ -38,6 +38,7 @@ public class CreateContactTest extends Base{
 	
 	@Test
 	public void createContactTest() throws Throwable {
+		//Poll SCM test
 		
 		File_Utilities fLib = new File_Utilities();
 //		String BROWSER = fLib.getKeyAndValue("Browser");
